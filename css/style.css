@@ -1,0 +1,166 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  font-size: 32px;
+  text-align: center;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+
+
+.left-contents {
+  width: 750px;
+  margin-right: 20px;
+  float: left;
+}
+
+.card-contents {
+  padding: 10px;
+  margin-left: 40px;
+  display: block;
+  margin-bottom: 20px;
+  background-color:  #efefef;
+}
+
+.images {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+}
+
+/*.text-block {*/
+/*  float: left;*/
+/*}*/
+
+.date {
+  font-size: 16px;
+  margin: 0 auto 0 auto;
+}
+
+.content {
+  color: #808080;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: normal;
+  color: #1E90FF;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.card-contents:after {
+  content:" ";
+  display: block;
+  clear: both;
+}
+
+
+
+.right-contents {
+  width: 430px;
+  float: left;
+}
+
+.right-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.h2-r {
+  font-size: 100%;
+  font-weight: normal;
+  color: #1E90FF;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.rightcard-contents {
+  padding: 3px;
+  margin-left: 0px;
+  display: block;
+  margin-bottom: 10px;
+  background-color:  #efefef;
+}
+
+.date-r {
+  font-size: 90%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 5px;
+}
+
+.images-r {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+}
+
+.textblock-r {
+  float: left;
+}
+
+.block-r:after {
+  clear: both;
+  display: block;
+  content:" ";
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content:" ";
+}
+
+
+
+.copyright {
+  text-align: center;
+}
