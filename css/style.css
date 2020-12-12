@@ -30,12 +30,6 @@ header {
   padding: 20px 0;
 }
 
-.header-navigation:after {
-  clear: both;
-  display: block;
-  content: " ";
-}
-
 .header-navigation li {
   float: left;
   padding: 0 30px;
@@ -48,9 +42,7 @@ header {
   text-decoration: none;
 }
 
-
-
-.left-contents {
+.articles {
   width: 750px;
   margin-right: 20px;
   float: left;
@@ -64,7 +56,7 @@ header {
   background-color:  #efefef;
 }
 
-.images {
+.image {
   margin-bottom: 10px;
   margin-right: 10px;
   width: 150px;
@@ -73,13 +65,14 @@ header {
   float: left;
 }
 
-/*.text-block {*/
-/*  float: left;*/
-/*}*/
+.text-block {
+  float: left;
+  width: 500px;
+}
 
 .date {
   font-size: 16px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 5 auto;
 }
 
 .content {
@@ -94,73 +87,43 @@ header {
   margin-bottom: 0px;
 }
 
-.card-contents:after {
-  content:" ";
-  display: block;
-  clear: both;
-}
-
-
-
-.right-contents {
+.latest-articles {
   width: 430px;
   float: left;
 }
 
-.right-title {
+.latest-articles-title {
   font-size: 24px;
   margin-bottom: 5px;
 }
 
-.h2-r {
-  font-size: 100%;
-  font-weight: normal;
-  color: #1E90FF;
-  margin-top: 0;
-  margin-bottom: 0px;
-}
-
-.rightcard-contents {
-  padding: 3px;
-  margin-left: 0px;
-  display: block;
-  margin-bottom: 10px;
-  background-color:  #efefef;
-}
-
-.date-r {
-  font-size: 90%;
-  margin: 0 auto 0 auto;
-  padding-bottom: 5px;
-}
-
-.images-r {
-  margin-bottom: 5px;
-  margin-right: 10px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  float: left;
-}
-
-.textblock-r {
-  float: left;
-}
-
-.block-r:after {
-  clear: both;
-  display: block;
-  content:" ";
-}
-
-.main:after {
-  clear: both;
-  display: block;
-  content:" ";
-}
-
-
-
 .copyright {
   text-align: center;
+}
+
+.latest-articles .image {
+  width: 80px;
+  height: 80px;
+}
+
+.latest-articles .date {
+  font-size: 12px;
+}
+
+.latest-articles .title {
+  font-size: 14px;
+}
+
+.latest-articles .text-block {
+  width: 200px;
+}
+
+.latest-articles .card-contents {
+  margin-left: 5px;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
 }
